@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="/images/mifavicon.png" />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Curso de Javascript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <div class="content-one">
+        <div>
+                <div class="padre">
+                        <p class="ct1" id="horas"></p>
+                        <p class="ct1">:</p>
+                        <p class="ct1" id="minu"></p>
+                        <p class="ct1">:</p>
+                        <p class="ct1" id="seco"></p>
+                        <p class="ct1" id="ap">  </p>
+                    </div>
+                    <div class="padre1">
+                        <p class="ct" id="dia"></p>
+                        <p class="ct" id="Ndia"></p>
+                        <p class="ct"> de </p>
+                        <p class="ct" id="mes"></p>
+                        <p class="ct"> del</p>
+                        <p class="ct" id="year"></p>
+                    </div>
+        </div>
+        
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD1R-Y5LBnkA8WLjdfrkOdBK6R5F3PhSt8",
+    authDomain: "clock-dfffc.firebaseapp.com",
+    databaseURL: "https://clock-dfffc.firebaseio.com",
+    projectId: "clock-dfffc",
+    storageBucket: "",
+    messagingSenderId: "697836877244"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="js/javas.js"></script>
+</body>
+
+</html>
